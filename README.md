@@ -60,7 +60,7 @@ The sigmoid function converts the real valued data **Z** in the range of 0 to 1.
 
 
 
-![Sigmoid](sigmoid/sigmoid.png)
+![Sigmoid](images/sigmoid.png)
 
 **Figure 5.3 Output of the sigmoid function with respect to the decision boundary**
 
@@ -111,9 +111,6 @@ The hyperparameters (learning rate and epochs) were tuned to find the best model
 **Figure 6.1 (A) and (B) Figures representing Accuracy vs Epoch and Cost vs Epoch for epoch of 4100 and learning rate of 0.78**
 
 
-
-|
-
 | Test Accuracy | Precision | Recall | f-Measure |
 | --- | --- | --- | --- |
 | 96.49% | 93% | 100% | 96% |
@@ -121,7 +118,7 @@ The hyperparameters (learning rate and epochs) were tuned to find the best model
 
    **Table 6.2 Representing the test accuracy, precision, recall and f-measure calculated from the predicted values for the epoch of 4100 and learning rate of 0.78** |         |   |   |   |   |   |
 | --- | --- | --- | --- | --- | --- | --- |
-|
+
 
 | **Epochs** | **Convergence of cost** |
 | --- | --- |
@@ -142,11 +139,9 @@ The hyperparameters (learning rate and epochs) were tuned to find the best model
 | --- | --- | --- | --- |
 | 92.98% | 90% | 96% | 93% |
 
-**Table 6.5 Representing the test accuracy, precision, recall and f-measure calculated from the predicted values for the epoch of 7500 and learning rate of 0.054**
+   **Table 6.5 Representing the test accuracy, precision, recall and f-measure calculated from the predicted values for the epoch of 7500 and learning rate of 0.054**
 
 
-
-|
 
 | **Epochs** | **Convergence of cost** |
 | --- | --- |
@@ -165,8 +160,7 @@ The hyperparameters (learning rate and epochs) were tuned to find the best model
 | Cost at 3600 epochs        | 0.137830 |
 | --- | --- |
 
-   **Table 6.6 Representing the convergence of cost for the epoch of 7500 and learning rate of 0.054** |
-| --- |
+   **Table 6.6 Representing the convergence of cost for the epoch of 7500 and learning rate of 0.054** 
 
 
 
@@ -176,15 +170,13 @@ The hyperparameters (learning rate and epochs) were tuned to find the best model
 
 **Figure 6.7 (A) and (B) Figures representing Accuracy vs Epoch and Cost vs Epoch for epoch of 5000 and learning rate of 0.1**
 
-
-
 | Test Accuracy | Precision | Recall | f-Measure |
 | --- | --- | --- | --- |
 | 94.73% | 93% | 96% | 95% |
 
-**Table 6.8 Representing the test accuracy, precision, recall and f-measure calculated from the predicted values for the epoch of 5000 and learning rate of 0.1**
+   **Table 6.8 Representing the test accuracy, precision, recall and f-measure calculated from the predicted values for the epoch of 5000 and learning rate of 0.1**
 
-|
+
 
 | **Epochs** | **Convergence of cost** |
 | --- | --- |
@@ -199,8 +191,7 @@ The hyperparameters (learning rate and epochs) were tuned to find the best model
 | Cost at 4800 epochs | 0.128327 |
 | --- | --- |
 
-   **Table 6.9 Representing the convergence of cost for the epoch of 5000 and learning rate of 0.1**    |   |   |   |   |    |   |
-| --- | --- | --- | --- | --- | --- | --- |
+**Table 6.9 Representing the convergence of cost for the epoch of 5000 and learning rate of 0.1**
 
 | **Learning rate** | **Epochs** | **Training accuracy**** In % **|** Validation accuracy ****In %**   | **Test accuracy**  **In %**   |
 | --- | --- | --- | --- | --- |
@@ -217,7 +208,6 @@ The hyperparameters (learning rate and epochs) were tuned to find the best model
 | 0.6 | 5500 | 98.46154 | 98.24561 | 96.49123 |
 | 0.6 | 6000 | 98.46154 | 98.24561 | 96.49123 |
 | 0.55 | 6000 | 98.46154 | 98.24561 | 96.49123 |
-|   |
 
 **Table 6.10 Representing the test training accuracy, validation accuracy and test accuracy obtained by tuning the hyper parameters.**
 
