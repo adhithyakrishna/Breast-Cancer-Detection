@@ -114,10 +114,8 @@ The hyperparameters (learning rate and epochs) were tuned to find the best model
 | Test Accuracy | Precision | Recall | f-Measure |
 | --- | --- | --- | --- |
 | 96.49% | 93% | 100% | 96% |
-| --- | --- | --- | --- |
 
-   **Table 6.2 Representing the test accuracy, precision, recall and f-measure calculated from the predicted values for the epoch of 4100 and learning rate of 0.78** |         |   |   |   |   |   |
-| --- | --- | --- | --- | --- | --- | --- |
+   **Table 6.2 Representing the test accuracy, precision, recall and f-measure calculated from the predicted values for the epoch of 4100 and learning rate of 0.78**
 
 
 | **Epochs** | **Convergence of cost** |
@@ -146,22 +144,14 @@ The hyperparameters (learning rate and epochs) were tuned to find the best model
 | **Epochs** | **Convergence of cost** |
 | --- | --- |
 | Cost at 0 epochs | 0.692601 |
-| --- | --- |
 | Cost at 1200 epochs | 0.263673 |
-| --- | --- |
 | Cost at 2400 epochs | 0.203133 |
-| --- | --- |
 | Cost at 3600 epochs        | 0.175513 |
-| --- | --- |
 | Cost at 4800 epochs        | 0.158583 |
-| --- | --- |
 | Cost at 3600 epochs        | 0.146742 |
-| --- | --- |
 | Cost at 3600 epochs        | 0.137830 |
-| --- | --- |
 
    **Table 6.6 Representing the convergence of cost for the epoch of 7500 and learning rate of 0.054** 
-
 
 
 1. 3) **For an epoch of 5000 and a learning rate of 0.1**
@@ -181,15 +171,10 @@ The hyperparameters (learning rate and epochs) were tuned to find the best model
 | **Epochs** | **Convergence of cost** |
 | --- | --- |
 | Cost at 0 epochs | 0.693530 |
-| --- | --- |
 | Cost at 1200 epochs | 0.208896 |
-| --- | --- |
 | Cost at 2400 epochs | 0.162891 |
-| --- | --- |
 | Cost at 3600 epochs | 0.141495 |
-| --- | --- |
 | Cost at 4800 epochs | 0.128327 |
-| --- | --- |
 
 **Table 6.9 Representing the convergence of cost for the epoch of 5000 and learning rate of 0.1**
 
