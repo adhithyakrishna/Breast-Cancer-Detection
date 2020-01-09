@@ -14,7 +14,7 @@ The Wisconsin dataset consist of 30 real valued input features which were comput
 
 | S.NO | Characteristics of a cell Nuclei |
 | --- | --- |
-| 1 | radius (mean of distances from center to points on the perimeter) |
+| 1 | Radius (mean of distances from center to points on the perimeter) |
 | 2 | Texture (standard deviation of gray-scale values) |
 | 3 | Perimeter |
 | 4 | Area |
