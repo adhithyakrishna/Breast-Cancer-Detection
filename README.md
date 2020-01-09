@@ -46,13 +46,13 @@ The dataset provided to us consist of the ID, Diagnosis information along with 3
 
 Training the logistic regression model involves finding out the global minimum of gradients (weight and bias) and improving the accuracy of the model by varying the hyper parameters (Epoch and Learning rate). The first step to calculate the logistic regression involves calculating the hypothesis function which is described in the image given below.
 
-text: ![Architecture](images/architecture.png)
+![Architecture](images/architecture.png)
  
 **Figure 5.1 Hypothesis function that limits the output of loss equation between 0 and 1**
 
 The first step involves multiplying randomized weight matrix with the features and adding it to the bias. The resulting matrix is then passed to the **Sigmoid function**. Sigmoid function is given by the equation.
 
- text: ![Sigmoid](images/formula.png)
+![Sigmoid](images/formula.png)
 
 **Figure 5.2 Formula of the Sigmoid function**
 
@@ -60,7 +60,7 @@ The sigmoid function converts the real valued data **Z** in the range of 0 to 1.
 
 
 
- text: ![Sigmoid](sigmoid/sigmoid.png)
+![Sigmoid](sigmoid/sigmoid.png)
 
 **Figure 5.3 Output of the sigmoid function with respect to the decision boundary**
 
@@ -68,19 +68,19 @@ The sigmoid function converts the real valued data **Z** in the range of 0 to 1.
 
 The performance of the classification model is determined using Cross-Entropy or a Cost function. This function works with values between 0 and 1. The output of the cost function is a single value. The Cost equation J(θ) is given below equation.
 
- text: ![CostEquation](images/5.4CostEquation.png)
+ ![CostEquation](images/5.4CostEquation.png)
 
 **Figure 5.4 Cost equation for convergence of gradients**
 
 The forward propagation ends with the calculation of cross entropy. The gradients (weights and bias) have to be updated for the next epoch and the equation to update the weights and bias is given below,
 
- text: ![WeightsandBiases](images/5.5Weightsandbiases.png)
+![WeightsandBiases](images/5.5Weightsandbiases.png)
 
 **Figure 5.5 Equation to update the weights and biases.**
 
 The **dw** and **db** in the equation stands for derivative weight and derivative bias.
 
- text: ![DerivativeBasesAndWeights](images/5.6derivativebases.png)
+![DerivativeBasesAndWeights](images/5.6derivativebases.png)
 
 **Figure 5.6 Equation to calculate the derivative bases and derivative weights**
 
@@ -106,7 +106,7 @@ The hyperparameters (learning rate and epochs) were tuned to find the best model
 
 1. 1) **For an epoch of 4100 and a learning rate of 0.78**
 
- text: ![Result](images/result1.png)
+ ![Result1](images/result1.PNG)
 
 **Figure 6.1 (A) and (B) Figures representing Accuracy vs Epoch and Cost vs Epoch for epoch of 4100 and learning rate of 0.78**
 
@@ -134,7 +134,7 @@ The hyperparameters (learning rate and epochs) were tuned to find the best model
 
 1. 2) **For an epoch of 7500 and a learning rate of 0.054**
 
- text: ![Result2](images/result2.png)
+ ![Result2](images/result2.PNG)
 
 **Figure 6.4 (A) and (B) Figures representing Accuracy vs Epoch and Cost vs Epoch for epoch of 7500 and learning rate of 0.054**
 
@@ -172,7 +172,7 @@ The hyperparameters (learning rate and epochs) were tuned to find the best model
 
 1. 3) **For an epoch of 5000 and a learning rate of 0.1**
 
- text: ![Result3](images/result3.png)
+ ![Result3](images/result3.PNG)
 
 **Figure 6.7 (A) and (B) Figures representing Accuracy vs Epoch and Cost vs Epoch for epoch of 5000 and learning rate of 0.1**
 
