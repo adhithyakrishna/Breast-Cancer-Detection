@@ -1,11 +1,6 @@
 # Breast-Cancer-Detection
 This project deals with binary classification by employing a supervised Learning technique called Logistic regression to predict whether a person has a breast cancer or not based on the fine needle aspirate (FNA) of a breast mass.
 
-|
-#   **aDhithyakrishna kovai srinivasan**
-Depart of computer science, University at BuffaloUBIT NUMBER: 50317495 akovaisr@buffalo.edu |
-| --- |
-|
 # ABSTRACT
 Machine learning, since its inception has been trying to solve several real-world problems that hinder the progress in society. It has succeeded in many domains, medical field being one of the most successful domains where the use of machine learning has proven to be very effective and has become very vital.  This project is related to medical field and deals with binary classification by employing a supervised Learning technique called Logistic regression to predict whether a person has a breast cancer or not based on the fine needle aspirate (FNA) of a breast mass. This report records the training, validation and testing accuracy along with precision and recall for each. |
 
